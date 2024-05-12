@@ -224,12 +224,17 @@ blockquote > p {
     text-align: center;
 }
 
-.greetings-contribute img {
-    width: 20px;
-    height: 20px;
+.greetings-social img {
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
 }
 
-.greetings-contribute {
+.greetings-social a:hover img {
+    opacity: 0.8;
+}
+
+.greetings-social {
     display: inline-flex;
     align-items:center;
     gap: 8px;
