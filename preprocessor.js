@@ -88,20 +88,21 @@ const ensureDistFolder = async () => {
 
 const mdProcessor = (content, emojis) => {
     let anchors = []
-    const md = markdownIt()
-        .use(mdAnchor, {
-            callback: (token, info) => {
-                if(!(token.tag === "h1" || token.tag === "h2")) return
-
-                anchors.push({
-                    slug: info.slug,
-                    title: info.title,
-                    tag: token.tag
-                })
-            }
-        })
-        .use(mdEmojis.full, {defs: emojis})
-        .use(mdSmall)
+    const md = markdownIt({
+        html: true
+    })
+    .use(mdAnchor, {
+        callback: (token, info) => {
+            if(!(token.tag === "h1" || token.tag === "h2")) return
+            anchors.push({
+                slug: info.slug,
+                title: info.title,
+                tag: token.tag
+            })
+        }
+    })
+    .use(mdEmojis.full, {defs: emojis})
+    .use(mdSmall)
 
     // add open in new tab functionality
     const defaultRender = md.renderer.rules.link_open || function (tokens, idx, options, _env, self) {
