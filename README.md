@@ -7,8 +7,8 @@
 </p>
 <h1 align="center">Beyond Software</h1>
 <p align="center">
-    A collective list of reliable and trustworthy software and resources for a better user expierence.<br>
-    Not influenced by sponsors, advertisements or finnancial gain.
+    A collective list of reliable and trustworthy software and resources for a better user experience.<br>
+    Not influenced by sponsors, advertisements or financial gain.
 </p>
 
 <br>
