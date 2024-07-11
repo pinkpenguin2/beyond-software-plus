@@ -221,7 +221,8 @@ Those are applications and resources that their functionality is directred relat
 
 ## File management
 [Files](https://files.community/) :c-windows: - File explorer that improves upon Windows's original file explorer  
-[Directory Opus](https://www.gpsoft.com.au/) :c-windows: :c-paid: :c-proprietary: - Extremely powerful file manager for Windows  
+[Directory Opus](https://www.gpsoft.com.au/) :c-windows: :c-paid: :c-proprietary: - Extremely powerful file manager for Windows  aaaaaaaaaaaaaaaaaaaaa
+[Tagstudio](https://github.com/TagStudioDev/TagStudio) :c-pc: - A modern file organizer that lets you tag your files.
 [MiXplorer](https://mixplorer.com/) :c-android: - Poweful file manager for Android
 
 [BleachBit](https://www.bleachbit.org/) :c-windows: :c-linux: - Open source system cleaner for Windows and Linux  
